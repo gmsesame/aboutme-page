@@ -20,12 +20,12 @@ header{
 	float: left;
 	border-left: 1px solid black;
 	padding: 10px 30px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .top-contents{
 	padding: 20px 100px;
-	background-image: url(newyear1.jpg);
+	background-image: url(img/newyear1.jpg);
 	background-size: cover;
 	color: white;
 	height: 800px;
@@ -54,4 +54,29 @@ header{
 	color: white;
 	font-size: 30px;
 	padding: 50px 50px;
+}
+
+
+/*自己紹介*/
+.middle-contents{
+	background-color: #9effff;
+	height: 800px;
+	padding-top: 20px;
+}
+
+.introduction{
+	background-color: #808080;
+	margin: auto;
+	width: 600px;
+	height: 800px;
+}
+
+.introduction img{
+	display: block;
+	margin: 0 auto;
+}
+
+.introduction h1,p{
+	letter-spacing: 4px;
+	text-align: center;
 }
