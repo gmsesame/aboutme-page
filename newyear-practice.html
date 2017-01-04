@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>2017年の目標</title>
 	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
@@ -13,10 +14,31 @@
 			<ul>
 				<li>自己紹介</li>
 				<li>ポートフォリオ</li>
-				<li>ブログ</li>
 			</ul>
 		</div>
 	</header>
+
+<!--ポートフォリオのモーダル（初期非表示）-->
+	<div class="portfolio-wrapper" id="portfolio-modal">
+		<div class="modal close-modal">
+			<div>
+				<i class="fa fa-2x fa-times"></i>
+			</div>
+
+
+			<div id="portfolio-form">
+				<h2>7つの習慣</h2>
+				<img src="img/portfolio/the_seven_habits.jpg">
+				<p><br>制作日：2016年12月29日<br><br>
+					制作時間:約2時間<br><br>
+					使用ソフト:FireAlpaca<br><br>
+					「マンガでわかる ７つの習慣」を読み、その内容で<br>参考になったことをA4サイズにまとめたもの。</p>
+			</div>
+		</div>
+	</div>
+<!--ポートフォリオのモーダルここまで-->
+
+
 	<div class="top-contents">
 		<h1><span class="year">2017</span></h1>
 		<h2><span class="message">今年もよろしくお願いします。</span></h2>
@@ -42,7 +64,7 @@
 		</div>
 	</div>
 	<div class="middle-first-contents">
-	<!--自己紹介-->
+		<!--自己紹介-->
 		<div class="introduction">
 			<img src="img/headshot.png">
 			<h1>自己紹介</h1>
@@ -61,14 +83,14 @@
 				好きな溶接はアーク溶接！</p>
 			</div>
 		</div>
-	<div class="middle-second-contents">
-	<!--ポートフォリオ-->
-		<div class="portfolio">
-			<h1>ポートフォリオ</h1>
-			<img src="img/portfolio/s_the_seven_habits.jpg">
+		<div class="middle-second-contents">
+			<!--ポートフォリオ-->
+			<div class="portfolio">
+				<h1>ポートフォリオ</h1>
+				<img src="img/portfolio/s_the_seven_habits.jpg" id="portfolio-show">
+			</div>
 		</div>
-	</div>
-	<footer></footer>
-	<script src="script.js"></script>
+		<footer></footer>
+		<script src="script.js"></script>
 	</body>
 	</html>
