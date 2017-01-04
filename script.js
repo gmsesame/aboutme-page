@@ -1,10 +1,10 @@
 $(function(){
-  $('#login-show').click(function(){
-    $('#login-modal').fadeIn();
+  $('#portfolio-show').click(function(){
+    $('#portfolio-modal').fadeIn();
   });
   
   $('.close-modal').click(function(){
-    $('#login-modal').fadeOut();
+    $('#portfolio-modal').fadeOut();
   });
 
 });

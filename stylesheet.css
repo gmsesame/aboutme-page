@@ -134,22 +134,22 @@ header{
 	cursor: pointer;
 }
 
-#signup-form{
+#portfolio-form{
 	width: 100%;
 }
 
-#login-form h2 {
+#portfolio-form h2 {
 	color: #5f5d60;
 	letter-spacing: 1px;
 	margin-bottom: 40px;
 }
 
-#login-form p {
+#portfolio-form p {
 	color: #5f5d60;
 	letter-spacing: 1px;
 }
 
-#login-form img{
+#portfolio-form img{
 	float: left;
 	margin-left: 30px;
 }
