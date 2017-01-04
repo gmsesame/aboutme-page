@@ -58,10 +58,12 @@ header{
 
 
 /*自己紹介*/
-.middle-contents{
+.middle-first-contents{
 	background-color: #9effff;
 	height: 800px;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #808080;
 }
 
 .introduction{
@@ -69,6 +71,7 @@ header{
 	margin: auto;
 	width: 600px;
 	height: 800px;
+	border: 2px dotted #808080;
 }
 
 .introduction img{
@@ -79,4 +82,28 @@ header{
 .introduction h1,p{
 	letter-spacing: 4px;
 	text-align: center;
+}
+
+/*ポートフォリオ*/
+.middle-second-contents{
+	background-color: #ffcce5;
+	height: 800px;
+}
+
+.portfolio {
+	background-color: #9effff;
+	width: 900px;
+	height: 800px;
+	margin: auto;
+}
+
+.portfolio h1{
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+/*フッター*/
+footer{
+	background-color: #808080;
+	height: 200px;
 }
